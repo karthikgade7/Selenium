@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<!--parallel="methods"/"false"-->
+<suite name="Omnius test floors" parallel="tests" thread-count="1" verbose="1">
+    <test name="TC_01">
+        <classes>
+            <class name="com.omnius.app.testCase.TC_01_LoginWithValidCredentials"/>
+        </classes>
+    </test>
+    <test name="TC_02">
+        <classes>
+            <class name="com.omnius.app.testCase.TC_02_LoginWithValidUsernameAndInvalidPassword"/>
+        </classes>
+    </test>
+    <test name="TC_03">
+        <classes>
+            <class name="com.omnius.app.testCase.TC_03_LoginWithInvalidUsernameAndValidPassword"/>
+        </classes>
+    </test>
+    <test name="TC_04">
+        <classes>
+            <class name="com.omnius.app.testCase.TC_04_LoginWithEmptyCredentials"/>
+        </classes>
+    </test>
+    <test name="TC_05">
+        <classes>
+            <class name="com.omnius.app.testCase.TC_05_SearchCollection"/>
+        </classes>
+    </test>
+    <test name="TC_06">
+        <classes>
+            <class name="com.omnius.app.testCase.TC_06_CreateCollection"/>
+        </classes>
+    </test>
+    <test name="TC_07">
+        <classes>
+            <class name="com.omnius.app.testCase.TC_07_SearchDocument"/>
+        </classes>
+    </test>
+    <test name="TC_08">
+        <classes>
+            <class name="com.omnius.app.testCase.TC_08_UploadDocument"/>
+        </classes>
+    </test>
+    <test name="TC_09">
+        <classes>
+            <class name="com.omnius.app.testCase.TC_09_UploadInvalidDocumentType"/>
+        </classes>
+    </test>
+    <test name="TC_10">
+        <classes>
+            <class name="com.omnius.app.testCase.TC_10_ValidateUploadedDocument"/>
+        </classes>
+    </test>
+</suite>
