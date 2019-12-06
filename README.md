@@ -8,3 +8,5 @@ Requirements to execute the Project
 Test cases are available in the testsuite - {project}/src/main/java/com/omnius/app/testPlan/TestSuite.xml
 
 Kindly note, to change drive - please change drive in the path {project}/src/main/resources/config.properties
+
+Kindly download Maven libraries before executing
