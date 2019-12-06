@@ -1,9 +1,9 @@
 # Selenium
-Selenium test for OmniUS
+Selenium test (Challenge-2) for OmniUS
 
 Requirements to execute the Project
-Java 8
-Mavan
+> Java 8
+> Mavan
 
 Test cases are available in the testsuite - {project}/src/main/java/com/omnius/app/testPlan/TestSuite.xml
 
